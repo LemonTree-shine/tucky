@@ -1,0 +1,21 @@
+{
+  "name": "tucky",
+  "version": "2.0.5",
+  "description": "数据管理工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"babel src --out-dir lib && uglifyjs lib/index.js -m -c -o index.js"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "chenze",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3"
+  }
+}
